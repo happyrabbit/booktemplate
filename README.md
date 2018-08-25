@@ -13,4 +13,13 @@ It is a simple bookdown template
       link: https://github.com/happyrabbit/booktemplate/master/%s
 ```
 
+- change the `output_dir`: `/Users/Documents/GitHub/booktemplate`
+
+```r
+book_filename: "booktemplate"
+chapter_name: "Chapter "
+output_dir: "/Users/Documents/GitHub/booktemplate"
+always_allow_html: yes
+```
+
 - Run this code in R Console: `bookdown::render_book("index.Rmd", "bookdown::gitbook")`
