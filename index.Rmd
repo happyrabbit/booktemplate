@@ -35,10 +35,31 @@ link-citations: yes
 description: "This is a book template"
 ---
 
-```{r,echo=FALSE}
-# bookdown::render_book("index.Rmd", "bookdown::gitbook")
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, collapse = TRUE)
 ```
 
 # Statement{-}
 
-You can put any statement here. It won't be counted as chapter. 
+## Using this document{-}
+
+* Code blocks and R code have a grey background (note, code nested in the text is not highlighted in the pdf version of this document but is a different font).
+* \# indicates a comment, and anything after a comment will not be evaluated in R
+* The comments beginning with \#\# under the code in the grey code boxes are the output from the code directly above; any comments added by us will start with a single \#
+* While you can copy and paste code into R, you will learn faster if you type out the commands yourself. 
+* Read through the document after class. This is meant to be a reference, and ideally, you should be able to understand every line of code. If there is something you do not understand please email us with questions or ask in the following class (you're probably not the only one with the same question!). 
+
+## Goals{-}
+
+1. Understand how to point to files, including best practices
+2. Practice reading and writing files
+3. Know how to import data from a csv file
+4. Work on cleaning up a file for analysis
+
+
+
+
+
+
+
+

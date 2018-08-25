@@ -1,4 +1,4 @@
 book_filename: "booktemplate"
 chapter_name: "Chapter "
-output_dir: "/Users/Documents/GitHub/booktemplate"
+output_dir: "../linhui.org/Siyao"
 always_allow_html: yes
